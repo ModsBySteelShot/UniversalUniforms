@@ -2,17 +2,17 @@
 	Copyright(C) 2019-2020 SteelShot <https://github.com/ModsBySteelShot>
 	
 	This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program. If not, see <https://www.gnu.org/licenses/>.
+	You should have received a copy of the GNU General Public License
+	along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 class CfgPatches {
@@ -32,16 +32,16 @@ class CfgPatches {
 };
 
 class CfgMods {
-    class universal_uniforms_rhs {
+	class universal_uniforms_rhs {
 		name = "Universal Uniforms: RHS Edition";
 		version = "2.2.0";
 
 		author = "SteelShot";
-        authorID = "76561198029852322";
+		authorID = "76561198029852322";
 
 		dir = "UniversalUniforms-RHS";
 		hideName = 0;
-        hidePicture = 0;
+		hidePicture = 0;
 
 		tooltipOwned = "Universal Uniforms: RHS Edition";
 		overview = "Wear any faction's uniform as any faction's member";
@@ -49,7 +49,7 @@ class CfgMods {
 
 		actionName = "Website";
 		action = "https://steamcommunity.com/sharedfiles/filedetails/?id=1475582774";
-    };
+	};
 };
 
 class CfgVehicles {
