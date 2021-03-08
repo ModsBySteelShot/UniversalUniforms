@@ -1,5 +1,5 @@
 /*	
-	Copyright(C) 2019-2020 SteelShot <https://github.com/ModsBySteelShot>
+	Copyright(C) 2019-2021 SteelShot <https://github.com/ModsBySteelShot>
 	
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@ class CfgPatches {
 	class universal_uniforms_sfp {
 		units[]= {};
 		weapons[]= {};
-		requiredVersion = 2.00;
+		requiredVersion = 2.02;
 		requiredAddons[]= {
 			"universal_uniforms",
 			"Swedish_Forces_Pack",
@@ -31,7 +31,7 @@ class CfgPatches {
 class CfgMods {
 	class universal_uniforms_sfp {
 		name = "Universal Uniforms: SFP Edition";
-		version = "2.2.0";
+		version = "2.2.1";
 
 		author = "SteelShot";
 		authorID = "76561198029852322";

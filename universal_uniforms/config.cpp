@@ -1,5 +1,5 @@
 /*	
-	Copyright(C) 2019-2020 SteelShot <https://github.com/ModsBySteelShot>
+	Copyright(C) 2019-2021 SteelShot <https://github.com/ModsBySteelShot>
 	
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@ class CfgPatches {
 	class universal_uniforms {
 		units[]= {};
 		weapons[]= {};
-		requiredVersion = 2.00;
+		requiredVersion = 2.02;
 		requiredAddons[]= { 
 			"A3_Characters_F",
 			"A3_Characters_F_Common",
@@ -31,7 +31,8 @@ class CfgPatches {
 			"A3_Characters_F_Tacops",
 			"A3_Characters_F_Tank",
 			"A3_Characters_F_Enoch",
-			"A3_Characters_F_Oldman"
+			"A3_Characters_F_Oldman",
+			"A3_Characters_F_AoW"
 		};
 	};
 };
@@ -39,7 +40,7 @@ class CfgPatches {
 class CfgMods {
 	class universal_uniforms {
 		name = "Universal Uniforms";
-		version = "2.2.0";
+		version = "2.2.1";
 
 		author = "SteelShot";
 		authorID = "76561198029852322";
@@ -1978,11 +1979,23 @@ class CfgVehicles {
 		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
 	};
 
+	class B_CTRG_Soldier_arid_F : B_CTRG_Soldier_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
 	class B_CTRG_Soldier_2_F : B_CTRG_Soldier_base_F {
 		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
 	};
 
+	class B_CTRG_Soldier_2_arid_F : B_CTRG_Soldier_2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
 	class B_CTRG_Soldier_3_F : B_CTRG_Soldier_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class B_CTRG_Soldier_3_arid_F : B_CTRG_Soldier_3_F {
 		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
 	};
 
@@ -3499,6 +3512,378 @@ class CfgVehicles {
 	};
 
 	class C_man_sport_2_F_afro_sick : C_man_sport_2_F_afro {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_ArtTShirt_01_base_F : Civilian_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_ArtTShirt_01_v1_F : C_Uniform_ArtTShirt_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_ArtTShirt_01_v2_F : C_Uniform_ArtTShirt_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_ArtTShirt_01_v3_F : C_Uniform_ArtTShirt_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_ArtTShirt_01_v4_F : C_Uniform_ArtTShirt_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_ArtTShirt_01_v5_F : C_Uniform_ArtTShirt_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_ArtTShirt_01_v6_F : C_Uniform_ArtTShirt_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_FormalSuit_01_base_F : Civilian_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_FormalSuit_01_tshirt_base_F : C_Uniform_FormalSuit_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_ParadeUniform_01_base_F : C_Uniform_FormalSuit_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_ParadeUniform_01_belt_base_F : C_Uniform_ParadeUniform_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_FormalSuit_01_black_F : C_Uniform_FormalSuit_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_FormalSuit_01_gray_F : C_Uniform_FormalSuit_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_FormalSuit_01_blue_F : C_Uniform_FormalSuit_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_FormalSuit_01_khaki_F : C_Uniform_FormalSuit_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_FormalSuit_01_tshirt_black_F : C_Uniform_FormalSuit_01_tshirt_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Uniform_FormalSuit_01_tshirt_gray_F : C_Uniform_FormalSuit_01_tshirt_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class B_Uniform_ParadeUniform_01_US_F : C_Uniform_ParadeUniform_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class B_Uniform_ParadeUniform_01_US_decorated_F : C_Uniform_ParadeUniform_01_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class O_Uniform_ParadeUniform_01_CSAT_F : C_Uniform_ParadeUniform_01_belt_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class O_Uniform_ParadeUniform_01_CSAT_decorated_F : C_Uniform_ParadeUniform_01_belt_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class I_Uniform_ParadeUniform_01_AAF_F : C_Uniform_ParadeUniform_01_belt_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class I_Uniform_ParadeUniform_01_AAF_decorated_F : C_Uniform_ParadeUniform_01_belt_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class I_E_Uniform_ParadeUniform_01_LDF_F : C_Uniform_ParadeUniform_01_belt_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class I_E_Uniform_ParadeUniform_01_LDF_decorated_F : C_Uniform_ParadeUniform_01_belt_base_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_1_F : C_Man_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_1_F_afro : C_Man_formal_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_1_F_euro : C_Man_formal_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_1_F_asia : C_Man_formal_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_1_F_tanoan : C_Man_formal_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_2_F : C_Man_formal_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_2_F_afro : C_Man_formal_2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_2_F_euro : C_Man_formal_2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_2_F_asia : C_Man_formal_2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_2_F_tanoan : C_Man_formal_2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_3_F : C_Man_formal_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_3_F_afro : C_Man_formal_3_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_3_F_euro : C_Man_formal_3_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_3_F_asia : C_Man_formal_3_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_3_F_tanoan : C_Man_formal_3_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_4_F : C_Man_formal_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_4_F_afro : C_Man_formal_4_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_4_F_euro : C_Man_formal_4_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_4_F_asia : C_Man_formal_4_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_formal_4_F_tanoan : C_Man_formal_4_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_1_F : C_Man_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_1_F_afro : C_Man_smart_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_1_F_euro : C_Man_smart_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_1_F_asia : C_Man_smart_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_1_F_tanoan : C_Man_smart_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_2_F : C_Man_smart_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_2_F_afro : C_Man_smart_casual_2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_2_F_euro : C_Man_smart_casual_2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_2_F_asia : C_Man_smart_casual_2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_smart_casual_2_F_tanoan : C_Man_smart_casual_2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_4_v2_F : C_Man_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_4_v2_F_afro : C_Man_casual_4_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_4_v2_F_euro : C_Man_casual_4_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_4_v2_F_asia : C_Man_casual_4_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_4_v2_F_tanoan : C_Man_casual_4_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_5_v2_F : C_Man_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_5_v2_F_afro : C_Man_casual_5_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_5_v2_F_euro : C_Man_casual_5_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_5_v2_F_asia : C_Man_casual_5_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_5_v2_F_tanoan : C_Man_casual_5_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_6_v2_F : C_Man_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_6_v2_F_afro : C_Man_casual_6_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_6_v2_F_euro : C_Man_casual_6_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_6_v2_F_asia : C_Man_casual_6_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_6_v2_F_tanoan : C_Man_casual_6_v2_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_7_F : C_Man_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_7_F_afro : C_Man_casual_7_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_7_F_euro : C_Man_casual_7_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_7_F_asia : C_Man_casual_7_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_7_F_tanoan : C_Man_casual_7_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_8_F : C_Man_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_8_F_afro : C_Man_casual_8_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_8_F_euro : C_Man_casual_8_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_8_F_asia : C_Man_casual_8_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_8_F_tanoan : C_Man_casual_8_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_9_F : C_Man_casual_1_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_9_F_afro : C_Man_casual_9_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_9_F_euro : C_Man_casual_9_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_9_F_asia : C_Man_casual_9_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class C_Man_casual_9_F_tanoan : C_Man_casual_9_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class B_Officer_Parade_F : B_officer_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class B_Officer_Parade_Veteran_F : B_Officer_Parade_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class I_Officer_Parade_F : I_officer_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class I_Officer_Parade_Veteran_F : I_Officer_Parade_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class I_E_Officer_Parade_F : I_E_Officer_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class I_E_Officer_Parade_Veteran_F : I_E_Officer_Parade_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class O_Officer_Parade_F : O_officer_F {
+		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
+	};
+
+	class O_Officer_Parade_Veteran_F : O_Officer_Parade_F {
 		modelSides[]= { 0, 1, 2, 3, 4, 5, 6, 7 };
 	};
 };

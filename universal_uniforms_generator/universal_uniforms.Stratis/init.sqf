@@ -1,5 +1,5 @@
 /*	
-	Copyright(C) 2019-2020 SteelShot <https://github.com/ModsBySteelShot>
+	Copyright(C) 2019-2021 SteelShot <https://github.com/ModsBySteelShot>
 	
 	This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -16,22 +16,17 @@
 */
 
 _vanilla = ["A3_Characters_F",
-			"CuratorOnly_Characters_F_BLUFOR",
 			"A3_Characters_F_Common",
-			"A3_Data_F_Curator_Virtual",
-			"A3_Data_F_Exp_A_Virtual",
 			"A3_Characters_F_Exp",
 			"A3_Characters_F_Exp_Civil",
 			"A3_Characters_F_Jets",
 			"A3_Characters_F_Patrol",
 			"A3_Characters_F_Orange",
-			"A3_Modules_F_Tacops",
 			"A3_Characters_F_Tacops",
 			"A3_Characters_F_Tank",
-			"A3_Characters_F_Tank_Uniforms",
 			"A3_Characters_F_Enoch",
-			"A3_Missions_F_Oldman",
-			"A3_Characters_F_Oldman"];	
+			"A3_Characters_F_Oldman",
+			"A3_Characters_F_AoW"];
 
 _rhs = ["rhs_c_troops",
 		"rhsusf_c_troops",
