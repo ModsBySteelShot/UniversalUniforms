@@ -1,5 +1,5 @@
 /*	
-	Copyright(C) 2019-2021 SteelShot <https://github.com/ModsBySteelShot>
+	Copyright(C) 2019-2024 SteelShot <https://github.com/ModsBySteelShot>
 	
 	This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -24,6 +24,7 @@ _vanilla = ["A3_Characters_F",
 			"A3_Characters_F_Orange",
 			"A3_Characters_F_Tacops",
 			"A3_Characters_F_Tank",
+			"A3_Characters_F_Tank_Uniforms",
 			"A3_Characters_F_Enoch",
 			"A3_Characters_F_Oldman",
 			"A3_Characters_F_AoW"];
@@ -38,19 +39,21 @@ _cup = ["CUP_Creatures_Military_BAF",
 		"CUP_Creatures_Military_Germany",
 		"CUP_Creatures_Military_NAPA",
 		"CUP_Creatures_Military_PMC",
-		"CUP_Creatures_Military_RACS",
 		"CUP_Creatures_Military_Russia",
-		"CUP_Creatures_Military_SLA",
 		"CUP_Creatures_Military_Taki",
 		"CUP_Creatures_Military_TakiInsurgents",
-		"CUP_Creatures_Military_USArmy",
 		"CUP_Creatures_Military_USMC",
 		"CUP_Creatures_People_Civil_Chernarus",
 		"CUP_Creatures_People_Civil_Russia",
 		"CUP_Creatures_People_Civil_Takistan",
 		"CUP_Creatures_Military_ACR",
 		"CUP_Creatures_Military_CDF",
-		"CUP_Creatures_Military_Chedaki"];
+		"CUP_Creatures_Military_Chedaki",
+		"CUP_Creatures_Military_RACS",
+		"CUP_Creatures_Military_SLA",
+		"CUP_Creatures_Military_USArmy",
+		"CUP_Creatures_Military_HIL",
+		"CUP_Creatures_Military_Ukraine"];
 
 bwm = ["bwa3_units"];
 
